@@ -1,0 +1,186 @@
+{
+  "users": [
+    {
+      "id": "a730",
+      "username": "Cesare",
+      "password": "c1"
+    },
+    {
+      "id": "43cc",
+      "username": "paolo",
+      "password": "p1"
+    },
+    {
+      "id": "761b",
+      "username": "cecio",
+      "password": "c2"
+    },
+    {
+      "id": "1af8",
+      "username": "aldo",
+      "password": "aldo1"
+    },
+    {
+      "id": "92ec",
+      "username": "Alberto",
+      "email": "alberto@gmail.com",
+      "password": "Ciaociao2."
+    }
+  ],
+  "matches": [
+    {
+      "id": "1",
+      "user": "cecio",
+      "opponent": "CPU",
+      "result": "WIN",
+      "date": "2024-10-28"
+    },
+    {
+      "id": "2",
+      "user": "cecio",
+      "opponent": "CPU",
+      "result": "LOSE",
+      "date": "2024-10-28"
+    },
+    {
+      "id": "3",
+      "user": "cecio",
+      "opponent": "paolo",
+      "result": "WIN",
+      "date": "2024-11-01"
+    },
+    {
+      "id": "4",
+      "user": "Cesare",
+      "opponent": "paolo",
+      "result": "LOSE",
+      "date": "2024-11-01"
+    },
+    {
+      "id": "5",
+      "user": "paolo",
+      "opponent": "cecio",
+      "result": "WIN",
+      "date": "2024-11-02"
+    },
+    {
+      "id": "6",
+      "user": "paolo",
+      "opponent": "cecio",
+      "result": "LOSE",
+      "date": "2024-11-02"
+    },
+    {
+      "id": "7",
+      "user": "cecio",
+      "opponent": "Cesare",
+      "result": "WIN",
+      "date": "2024-11-05"
+    },
+    {
+      "id": "8",
+      "user": "cecio",
+      "opponent": "Cesare",
+      "result": "LOSE",
+      "date": "2024-11-05"
+    },
+    {
+      "id": "9",
+      "user": "aldo",
+      "opponent": "paolo",
+      "result": "LOSE",
+      "date": "2024-11-06"
+    },
+    {
+      "id": "10",
+      "user": "aldo",
+      "opponent": "paolo",
+      "result": "LOSE",
+      "date": "2024-11-06"
+    },
+    {
+      "id": "dd65",
+      "user": "cecio",
+      "opponent": "Luca",
+      "result": "X",
+      "date": "2024-11-13"
+    },
+    {
+      "id": "b589",
+      "user": "cecio",
+      "opponent": "Luca",
+      "result": "X",
+      "date": "2024-11-13"
+    },
+    {
+      "id": "2ac3",
+      "user": "cecio",
+      "opponent": "Luca",
+      "result": "O",
+      "date": "2024-11-13"
+    },
+    {
+      "id": "7330",
+      "user": "cecio",
+      "opponent": "Luca",
+      "result": "LOSE",
+      "date": "2024-11-13"
+    },
+    {
+      "id": "5ca2",
+      "user": "cecio",
+      "opponent": "Luca",
+      "result": "WIN",
+      "date": "2024-11-13"
+    },
+    {
+      "id": "6370",
+      "user": "cecio",
+      "opponent": "Luca",
+      "result": "LOSE",
+      "date": "2024-11-13"
+    },
+    {
+      "id": "53bc",
+      "user": "cecio",
+      "opponent": "Luca",
+      "result": "WIN",
+      "date": "2024-11-13"
+    },
+    {
+      "id": "c47b",
+      "user": "cecio",
+      "opponent": "CPU",
+      "result": null,
+      "date": "2024-11-18"
+    },
+    {
+      "id": "0a06",
+      "user": "cecio",
+      "opponent": "CPU",
+      "result": null,
+      "date": "2024-11-24"
+    },
+    {
+      "id": "9c63",
+      "user": null,
+      "opponent": "CPU",
+      "result": null,
+      "date": "2024-11-24"
+    },
+    {
+      "id": "bb07",
+      "user": "cecio",
+      "opponent": "CPU",
+      "result": null,
+      "date": "2024-11-25"
+    },
+    {
+      "id": "1393",
+      "user": "cecio",
+      "opponent": "a",
+      "result": "WIN",
+      "date": "2024-11-25"
+    }
+  ]
+}

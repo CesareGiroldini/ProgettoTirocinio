@@ -1,0 +1,23 @@
+{
+  "welcome": "Benvenuto",
+  "start_game": "Inizia partita",
+  "player_vs_player": "Giocatore contro giocatore",
+  "matches": "Partite",
+  "player_vs_cpu": "Giocatore contro CPU",
+  "login": "Accedi",
+  "logout": "Esci",
+  "register": "Registrati",
+  "select_game_mode": "Seleziona modalità di gioco",
+  "restart_game": "Riavvia partita",
+  "your_matches": "Le tue partite",
+  "total_games": "Partite totali",
+  "wins": "Vittorie",
+  "losses": "Sconfitte",
+  "wins_vs_cpu": "Vittorie contro CPU",
+  "back_to_menu": "Torna al menu",
+  "enter_opp_name": "Inserisci il nome dell'avversario",
+  "draw": "È un pareggio!",
+  "winner_result": "Il vincitore è",
+  "save": "Salva",
+  "cancel": "Annulla"
+}

@@ -1,0 +1,56 @@
+.menu-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    width: 300px;
+    text-align: center;
+    background-color: #33247c;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: darkred;
+    font-size: 1.6rem;
+}
+
+.button-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+    margin-top: 1.5rem;
+}
+
+.button-group button {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+    .menu-card{
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+        width: 90%;
+        max-height: 650px;
+        overflow: hidden;
+    }
+    .button-group button {
+        font-size: 1.5rem;
+    }
+    .p-card-title{
+        font-size: 3rem;
+    }
+    .p-button-icon{
+        font-size: 1.5rem;
+    }
+    .flag{
+        font-size: 3rem;
+    }
+    .language-button{
+        font-size: 1rem;
+    }
+    .p-button-label{
+        font-size: 1.4rem;
+    }
+}
