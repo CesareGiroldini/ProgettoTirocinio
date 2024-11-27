@@ -52,7 +52,7 @@ const GamePage = () => {
 
     const renderGameEndDialog = () => (
         <Dialog header="🏆 Game Over 🏆" visible={showGameEndDialog} onHide={handleCloseGameEndDialog} draggable={false}
-                closable={false}>
+                closable={false} headerClassName="text-center">
             <div className="dialog-content">
                 <p>{winner === 'Draw' ? t('draw') : `${t('winner_result')} ${winner} 🎉`}</p>
                 <Button label={t('restart_game')} onClick={handleCloseGameEndDialog} className="p-button-success"/>
@@ -78,7 +78,7 @@ const GamePage = () => {
 
     return (
         <div className="game-page">
-            <Card className="game-card">
+            <Card className="game-card justify-content-center text-center">
                 <h1 className="game-title">
                     <span className="title-box title-red">Tic</span>
                     <span className="title-box title-yellow">Tac</span>

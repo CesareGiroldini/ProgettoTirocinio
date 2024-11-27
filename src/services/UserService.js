@@ -15,6 +15,15 @@ export const signUpUser = async (user) => {
     }
 };
 
+export const fetchUsers = async () => {
+    try {
+        const response = await api.get("/users");
+        return response.data;
+    } catch (error) {
+        console.error("Error fetching users:", error);
+    }
+};
+
 export const loginUser = async (username, password) => {
     try {
         await delay(1000);
@@ -48,6 +57,15 @@ export const getUserMatches = async (username) => {
     } catch (error) {
         console.error("Error fetching matches:", error);
         return [];
+    }
+};
+
+export const toggleUserStatus = async (userId, currentStatus) => {
+    try {
+        const updatedUser = {active: !currentStatus};
+        await api.patch(`/users/${userId}`, updatedUser);
+    } catch (error) {
+        console.error("Error updating user status:", error);
     }
 };
 

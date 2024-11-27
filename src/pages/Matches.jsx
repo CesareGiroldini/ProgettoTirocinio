@@ -7,6 +7,7 @@ import {useNavigate} from "react-router";
 import {Button} from "primereact/button";
 import {useTranslation} from "react-i18next";
 import {useLoading} from "../contexts/LoadingContext.jsx";
+import {calculateStatistics} from "@/utils/calculateStats.js";
 
 
 const MatchesPage = () => {
@@ -22,21 +23,14 @@ const MatchesPage = () => {
             showLoading();
             const data = await getUserMatches(user);
             setMatches(data.reverse());
-            calculateStatistics(data);
+            const stats = calculateStatistics(data);
+            setStatistics(stats);
             hideLoading();
         };
 
         fetchMatches();
     }, [user]);
 
-    const calculateStatistics = (matches) => {
-        const total = matches.length;
-        const wins = matches.filter(match => match.result === "WIN").length;
-        const losses = total - wins;
-        const cpuWins = matches.filter(match => match.result === "WIN" && match.opponent === "CPU").length;
-
-        setStatistics({total, wins, losses, cpuWins});
-    };
 
     return (
         <div className="matches-container">

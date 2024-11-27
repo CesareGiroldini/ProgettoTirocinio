@@ -9,15 +9,19 @@
   "register": "Registrieren",
   "select_game_mode": "Spielmodus auswählen",
   "restart_game": "Spiel neu starten",
+  "next_player": "Nächster Spieler",
   "your_matches": "Deine Spiele",
   "total_games": "Gesamtspiele",
   "wins": "Siege",
   "losses": "Niederlagen",
-  "wins_vs_cpu": "Siege gegen die CPU",
-  "back_to_menu": "Zurück zum Menü",
-  "enter_opp_name": "Geben Sie den Namen des Gegners ein",
+  "wins_vs_cpu": "Siege gegen CPU",
+  "back_to_menu": "Hauptmenü",
+  "enter_opp_name": "Gib den Namen des Gegners ein",
+  "insert_name": "Namen eingeben",
   "draw": "Es ist ein Unentschieden!",
   "winner_result": "Der Gewinner ist",
   "save": "Speichern",
-  "cancel": "Abbrechen"
+  "cancel": "Abbrechen",
+  "player_x_message": "Spieler X, jetzt kannst du glänzen!",
+  "player_o_message": "Spieler O, zeig uns, was du drauf hast!"
 }

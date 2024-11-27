@@ -3,28 +3,50 @@
     {
       "id": "a730",
       "username": "Cesare",
-      "password": "c1"
+      "password": "c1",
+      "role": "user",
+      "active": true,
+      "email": "cesare@example.com"
     },
     {
       "id": "43cc",
       "username": "paolo",
-      "password": "p1"
+      "password": "p1",
+      "role": "user",
+      "active": true,
+      "email": "paolo@example.com"
     },
     {
       "id": "761b",
       "username": "cecio",
-      "password": "c2"
+      "password": "c2",
+      "role": "user",
+      "active": true,
+      "email": "cecio@example.com"
     },
     {
       "id": "1af8",
       "username": "aldo",
-      "password": "aldo1"
+      "password": "aldo1",
+      "role": "user",
+      "active": true,
+      "email": "aldo@example.com"
     },
     {
       "id": "92ec",
       "username": "Alberto",
       "email": "alberto@gmail.com",
-      "password": "Ciaociao2."
+      "password": "Ciaociao2.",
+      "role": "user",
+      "active": true
+    },
+    {
+      "id": "admin01",
+      "username": "admin",
+      "password": "admin1",
+      "role": "admin",
+      "active": true,
+      "email": "admin@example.com"
     }
   ],
   "matches": [
@@ -181,6 +203,27 @@
       "opponent": "a",
       "result": "WIN",
       "date": "2024-11-25"
+    },
+    {
+      "id": "9826",
+      "user": "cecio",
+      "opponent": "CPU",
+      "result": null,
+      "date": "2024-11-27"
+    },
+    {
+      "id": "1f6e",
+      "user": "cecio",
+      "opponent": "leo",
+      "result": "WIN",
+      "date": "2024-11-27"
+    },
+    {
+      "id": "df67",
+      "user": "cecio",
+      "opponent": "leo",
+      "result": null,
+      "date": "2024-11-27"
     }
   ]
 }

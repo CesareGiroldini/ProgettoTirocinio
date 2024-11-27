@@ -5,6 +5,7 @@ import Menu from "../pages/Menu.jsx";
 import Register from "../pages/Register.jsx";
 import { createBrowserRouter, RouterProvider } from "react-router";
 import PrivateRoute from "./PrivateRoute.jsx";
+import Admin from "../pages/Admin.jsx";
 
 export default function Routes() {
 
@@ -21,6 +22,7 @@ export default function Routes() {
                 { path: "menu", element: <Menu /> },
                 { path: "game", element: <Game /> },
                 { path: "games", element: <Matches /> },
+                { path: "admin", element: <Admin /> },
             ]
         }
     ];
