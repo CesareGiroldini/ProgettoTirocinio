@@ -21,7 +21,7 @@ const Admin = () => {
         losses: 0,
         cpuWins: 0,
     });
-    const {user, logout} = useAuth();
+    const {logout} = useAuth();
     const {showLoading, hideLoading} = useLoading();
 
     const useIsMobile = () => {

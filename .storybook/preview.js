@@ -1,4 +1,15 @@
-/** @type { import('@storybook/react').Preview } */
+//import('@storybook/react').Preview
+import 'primeflex/primeflex.css';
+import 'primeicons/primeicons.css';
+import 'primereact/resources/primereact.css';
+import 'primereact/resources/themes/saga-blue/theme.css';
+import '../src/style.css'
+import '../src/pages/css/Game.css'
+
+global.jest = {
+  fn: () => {},
+};
+
 const preview = {
   parameters: {
     controls: {
